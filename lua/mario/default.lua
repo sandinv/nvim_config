@@ -19,7 +19,10 @@ vim.opt.scrollbind = false
 vim.opt.wildmenu = true
 
 vim.opt.tabstop = 3
+vim.opt.expandtab = true
 vim.opt.shiftwidth = 3
+vim.opt.smartindent = true
+
 
 -- filetype related 
 vim.api.nvim_create_autocmd("FileType", {
