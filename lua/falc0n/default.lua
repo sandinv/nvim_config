@@ -1,8 +1,9 @@
-vim.g.mapleader = ","
+vim.g.mapleader = " "
 
 vim.opt.encoding = "utf-8"
 
 vim.opt.compatible = false
+vim.opt.cursorline = true
 vim.opt.hlsearch = true
 vim.opt.relativenumber = true
 vim.opt.laststatus = 2
@@ -18,9 +19,10 @@ vim.opt.clipboard = "unnamed"
 vim.opt.scrollbind = false
 vim.opt.wildmenu = true
 
-vim.opt.tabstop = 3
+vim.opt.tabstop = 4
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 3
+vim.opt.shiftwidth = 4
+vim.opt.number = true
 vim.opt.smartindent = true
 
 
@@ -41,7 +43,3 @@ vim.api.nvim_create_autocmd("FileType", {
     end
 })
 
-vim.keymap.set("n", "<S-h>", "<C-w>h", { desc = "Move to left split" })
-vim.keymap.set("n", "<S-l>", "<C-w>l", { desc = "Move to right split" })
-vim.keymap.set("n", "<S-j>", "<C-w>j", { desc = "Move to split below" })
-vim.keymap.set("n", "<S-k>", "<C-w>k", { desc = "Move to split above" })
