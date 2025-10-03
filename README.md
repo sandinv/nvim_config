@@ -1,4 +1,6 @@
-# Neovim configuration for Go development using lazy.nvim and go.nvim
+# Neovim configuration for Go development using lazy.nvim and go.nvim based on the hard work of Mario Carrion:
+
+Original README:
 
 * [YouTube Video](https://youtu.be/n5_WLgxwkU8)
 * [Blog post](https://mariocarrion.com/2024/05/20/neovim-migrating-to-lazy-and-go-nvim.html)
